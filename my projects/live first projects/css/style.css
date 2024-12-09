@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration:none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.cls{
+    clear: both;
+}    
+
+
+
+     /* nav part css start  */
+body{
+
+    
+}    
+.logo{
+    width: 30%;
+    float: left;
+    display: block;
+}
+.logo img {
+    padding: 3px 3px;
+    width: 200px;
+
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li {
+    float: left;
+    padding: 15px 20px;
+    
+}
+.menu ul li a{
+    color:black;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center ;
+    text-transform: capitalize;
+
+}
+.search input {
+    margin-left: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 30px;
+    float: right;
+    border: none;
+}
+.search ul{
+    float: left;
+}
+
+nav{
+    background-color: rgba(230, 204, 204, 0.849);
+}
+
+
+        /* nav part css end  */
+        /* banner part css start */
+.banner{
+    background:url(../images/banner.jpg);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no repeat;
+}
+.banner_overlay{
+    padding:200px 0px;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.banner_con h1{
+    font-size: 40px;
+    font-family: monospace;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+.banner_con h4{
+    font-size: 20px;
+    font-family: monospace;
+    color: rgba(80, 250, 94, 0.897);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+
+}
+.banner_con a{
+    font-size: 30px;
+    font-family: monospace;
+    color: rgba(27, 7, 7, 0.911);
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: rgba(253, 255, 249, 0.897);
+    border-radius: 30px;
+
+}
+        /* banner part css end */
+        /* about part css code start */
+    .about_head h2{
+        background-color: burlywood;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 20px 40px;
+        margin: 30px 30px;
+        border-radius: 5px;
+}
+.about_img{
+    width: 48%;
+    float: left;
+}
+.about_img img{
+    width: 100%;
+}
+.about_content{
+    width: 50%;
+    float: right;
+}
+.about_content p{
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+        /* about part css code end */
+
+/* gellary part css start  */
+.gly-img{
+    width: 32%;
+    float: left;
+    position: relative;
+}
+.gly-img img{
+    width:100%;
+    
+        
+}
+
+.gly-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(0);
+}
+.gly-overlay ul li a{
+    background-color: white;
+    padding: 10px 10px;
+    color: rgba(155, 12, 244, 0.96);
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    line-height: 10px;
+    
+}
+.gly-img:hover .gly-overlay{
+    transform:scale(1);
+    transition: all linear .3s;
+}
+.middle-img{
+    margin-right: 19px;
+    margin-left: 19px;
+}
+
+/* gellary part css end */
+/*footer part css code start */
+footer{
+    color: aliceblue;
+    background-color: #333;
+    font-size: 80%;
+      text-align: center;
+    margin-top: 30px;
+    
+}
+.footer_body{
+    margin-bottom: 30px;
+    padding: 30px;
+  
+}
+.footer_body h5{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.footer_body ul{
+    margin-top: 20px;
+    margin-bottom: -60px;
+}
+.footer_body ul li{
+    padding: 10px 10px;
+
+}
+.footer_body ul li a{
+    color: aliceblue;
+    margin-bottom: 10px;
+    
+}
+.f_con{
+    
+    background-color: gray;
+    font-size: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+/*footer part css code end*/

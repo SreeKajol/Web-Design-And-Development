@@ -1,0 +1,18 @@
+.rasel {
+    height: 50px;
+    background-color: teal;
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.kajol {
+    padding: 200px 0px;
+    text-align: center;
+    font-size: 30px;
+    background-color: coral;
+    color: rebeccapurple;
+    display: none;
+}

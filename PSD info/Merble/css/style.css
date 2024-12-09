@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(198, 198, 198, 0.74);
+     font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+/*nav part css code start*/
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    display: block;
+    padding: 20px 15px;
+    
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: green; 
+}
+.navbar-nav .nav-item .nav-link:focus{
+    color: green; 
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: green; 
+}
+
+/*nav part css code end*/
+/*banner part css code start*/
+.banner-img{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner-overlay{
+    padding: 150px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+.banner-con{
+    text-align: center;
+    color: white;
+    
+}
+.banner-con h4{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px; 
+    margin-bottom: 20px;
+}
+
+.banner-con p{
+    font-size: 18px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.banner-con ul li a{
+    padding: 7px 25px;
+    color: white;
+    display: inline-flex;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border: 2px solid white;
+    margin-left: 10px;
+    transition: all linear .3s;
+    text-transform: uppercase;
+
+}
+.banner-con ul li a:hover{
+    background-color:#0872b9; 
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+    border-bottom: 2px solid #3297db;
+}
+/*banner part css code end*/
+/*services part html code start*/
+.icon-main{
+    height: 90px;
+    width: 90px;
+    background-color: #9d9abf;
+    border-radius: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 82px;
+}
+.ser-con{
+    text-align: center;
+   
+}
+.ser-con h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px; 
+    margin-bottom: 10px;
+    
+}
+.ser{
+    padding-bottom: 30px;
+}
+.ser-con p{
+    font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.watch{
+    background-color: #d2514b;
+}
+.bikar{
+    background-color: #648293;
+}
+.last-i{
+    background-color: #e8c04f;
+}
+.bor{
+        border-bottom: 2px solid green;
+
+}
+/*services part html code end*/
+/*latest work css code start*/
+.work-head h5{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px; 
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.l-con{
+    text-align: left;
+}
+.l-con h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 20px; 
+    margin-bottom: 8px;
+}
+.l-con h6{
+     font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 5px;
+}
+.l-con p{
+     font-size: 13px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+/*latest work css code end*/
+/*testimonial part css code start*/
+.testimonial{
+    background-color: #efefef;
+}
+.testi-con{
+    text-align: center;
+    padding: 50px 0px;
+}
+.testi-con span{
+    font-size: 50px;
+     font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.testi-con p{
+    font-size: 20px;
+     font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+/*testimonial part css code end*/
+/*footer part css code start*/
+footer{
+    background-color: #1e1e1e;
+    color: whitesmoke;
+}
+.foot-head h4{
+  font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 40px; 
+    margin-bottom: 20px;
+    
+}
+.foot-head p{
+     font-size: 13px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+.f-icon ul{
+    padding: 0;
+}
+.f-icon ul li a{
+    font-size: 14px;
+}
+.f-add p{
+    font-size: 13px;
+}
+.pop p{
+    padding-bottom: 7px;
+    margin: 0;
+}
+/*footer part css code end*/
+

@@ -1,0 +1,452 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(198, 198, 198, 0.74);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*header part css start*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 30px;
+}
+
+/*header part css end*/
+/*banner part css code start*/
+.container {
+    padding: 0px 70px;
+}
+
+.logo {
+    padding-top: 7px;
+    margin-bottom: 25px;
+
+}
+
+.banner-img {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner-overlay {
+    padding: 87px 0px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.banner-con {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.banner-con h4 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.banner-con h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+.banner-con p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.banner-con ul li {
+    display: inline-flex;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.banner-con ul li a {
+    padding: 7px 25px;
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    display: block;
+    border: 2px solid white;
+    margin-left: 10px;
+    transition: all linear .3s;
+}
+
+.banner-con ul li a:hover {
+    background-color: #0872b9;
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+}
+
+.banner {
+    position: relative;
+}
+
+.iphone {
+
+    font-size: 5px;
+    text-align: right;
+    position: absolute;
+    top: 130px;
+    bottom: -17px;
+    right: 148px;
+
+}
+
+/*banner part css code end*/
+
+/*about part css code start*/
+.com-about h2 {
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-con {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 80px;
+}
+
+.low {
+    padding-top: 50px;
+    margin-top: 30px;
+}
+
+.about-con p {
+    margin-bottom: 13px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+/*about part css code end*/
+
+/*gird part css code start*/
+.gird-1 {
+    padding: 20px 20px;
+    background-color: #f5989d;
+    margin: 0px;
+    color: white;
+}
+
+.gird-1 h4 {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+.gird-1 p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.gird-1 ul {
+    padding: 0px;
+}
+
+.gird-1 ul li {
+    display: inline-flex;
+    padding-left: 20px;
+}
+
+.gird-1 ul li a {
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.gird-2 {
+    background-color: #615f7d;
+}
+
+.gird-3 {
+    background-color: #82ca9c;
+}
+
+.small-pic {
+    background: url(../images/smallbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 253px;
+}
+
+.big-pic {
+    background: url(../images/bigbox.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 253px;
+}
+
+.gird-overlay {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+.pad {
+    padding-right: calc(var(--bs-gutter-x)/0);
+    padding-left: calc(var(--bs-gutter-x)/ 0);
+}
+
+/*gird part css code end*/
+
+/*details part css code start*/
+.details-con {
+    margin-top: 13px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 100px;
+}
+
+.details-con p {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+/*details part css code end*/
+
+/*last banner part css code start*/
+.last-banner-img {
+    background: url(../images/l-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.l-con {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.l-con h4 {
+    font-size: 60px;
+}
+
+.l-con p {
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.l-con a {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    width: 150px;
+    height: 20px;
+}
+
+.color {
+    background-color: #82ca9c;
+    color: white;
+}
+
+/*last banner part css code end*/
+
+/*buyer part css code start*/
+
+.buy-con {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 50px;
+    transition: all linear .5s;
+}
+.buy-con:hover{
+    background-color: #ffffff;
+    transition: all linear .5s;
+}
+
+.buy-con h6 {
+    font-size: 13px;
+    padding: 7px 20px;
+    background-color: darkgray;
+    display: inline-block;
+    border-radius: 7px;
+    transition: all linear .3s;
+    margin-bottom: 19px;
+    line-height: 25px;
+    
+}
+.buy-con h6:hover{
+    background-color: #bd8cbf;
+    transition: all linear .3s;
+}
+.buy-con h4 {
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+
+.buy-con P {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.buy-con .button {
+    padding: 7px 20px;
+    background-color: #82ca9c;
+    border-radius: 5px;
+    color: white;
+    transition: all linear .3s;
+}
+.buy-con .button:hover{
+    background-color:  yellowgreen;
+    transition: all linear .3s;
+}
+.buy-con ul {
+    padding: 0;
+}
+
+.buy-con ul li {
+    display: inline-flex;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.buy-con ul li a {
+    color: dimgray;
+    font-size: 30px;
+    text-align: left;
+    transition: all linear .3s;
+}
+
+.buy-con ul li a:hover {
+    color: green;
+    transition: all linear .3s;
+}
+
+/*buyer part css code end*/
+
+/*footer part css start*/
+footer {
+    background-color: #353535;
+    margin-top: 60px;
+    color: white;
+    padding: 34px 0px 20px;
+
+}
+.f-con h4{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+.f-con p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.f-con input{
+   padding: 7px 90px;
+    outline: 0;
+    background-color: transparent;
+    border-radius: 7px;
+    transition: all linear .3s;
+    
+}
+
+.f-con a{
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+    
+}
+
+.f-con input:hover{
+    background-color: antiquewhite;
+    color: indigo;
+    font-size: 18px;
+    transition: all linear .3s;
+}
+.f-feat{
+    margin-top: 20px;
+}
+.f-feat a{
+    color: white;
+    font-size: 13px;
+    transition: all linear .3s;
+}
+.f-feat ul{
+    padding: 0;
+}
+.f-feat a:hover{
+    color: #71bed3;
+    transition: all linear .3s;
+}
+.com-f {
+    text-align: center;
+    background-color: #555555;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    padding-top: 19px;
+
+
+}
+
+.com-f p span {
+    color: #5bc5f4;
+}
+
+/*footer part css end*/

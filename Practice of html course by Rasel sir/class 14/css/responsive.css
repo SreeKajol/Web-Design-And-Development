@@ -1,0 +1,233 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) { 
+/*    nav part responsive code start*/
+    .icon{
+        display: none;
+    }
+    .welcome{
+        text-align: center;
+        font-size: 21px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        background-color: darkslategray;
+        border-bottom: 1px solid green;
+        text-align: center;
+        color: white;
+    }
+    .navbar-nav .nav-item .nav-link.active{
+        color: aqua;
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        color: aqua;
+        background-color: indigo;
+    }
+
+/*    nav part responsive code end*/
+/*banner part responsive code start*/
+    .banner-con{
+    text-align: center;
+        
+    }
+    .banner-con h4{
+    font-size: 25px;
+    }
+    .banner-con h2{
+        font-size: 30px;
+    }
+    .banner-con p{
+        font-size: 14px;
+    }
+/*banner part responsive code end*/
+
+/*    about part responsive code start*/
+    
+.com-about h2::after {
+    left: 34%;
+    }
+    .com-about h2::before{
+        
+        left: 52%;
+    }
+.com-about h2 span::after {
+    left: 56%;
+    }
+    .com-about h2 span::before {
+    left: 60%;
+    }
+    .sm-d{
+        display: none;
+    }
+/*    about part responsive code end*/
+/*services part responsive code start*/
+    .ser-pro{
+        margin-bottom: 70px;
+    }
+    .ser-icon-main {
+    left: 41%;
+    }
+    
+/*services part responsive code end*/
+/*testi part responsive code start*/
+    .piramid {
+    left: 42%;
+    }
+    .testi{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    }
+/*testi part responsive code end*/
+/*footer part responsive code start*/
+    .f-sm{
+   text-align: center;
+    }
+    
+    .f-comm h3{
+    text-align:center;
+    }
+    .f-icon{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .f-number{
+        text-align: center;
+    }
+    .f-menu ul li a{
+   margin-left: 30px;
+        
+    }
+/*footer part responsive code end*/
+
+    }
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767px) {
+/*       nav part responsive code start*/
+    
+     .navbar-nav .nav-item .nav-link{
+        background-color: darkslategray;
+        border-bottom: 1px solid green;
+        text-align: center;
+        color: white;
+    }
+    .navbar-nav .nav-item .nav-link.active{
+        color: aqua;
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        color: aqua;
+        background-color: indigo;
+    }
+/*       nav part responsive code end*/
+    /*banner part responsive code start*/
+    .banner-con{
+    text-align: center;
+        
+    }
+    .banner-con h4{
+    font-size: 30px;
+    }
+    .banner-con h2{
+        font-size: 35px;
+    }
+    .banner-con p{
+        font-size: 15px;
+    }
+/*banner part responsive code end*/
+   /*    about part responsive code start*/
+    
+.com-about h2::after {
+    left: 41%;
+    }
+    .com-about h2::before{
+        
+        left: 52%;
+    }
+.com-about h2 span::after {
+    left: 56%;
+    }
+    .com-about h2 span::before {
+    left: 60%;
+    }
+    .sm-d{
+        display: none;
+    }
+/*    about part responsive code end*/ 
+    /*services part responsive code start*/
+    .ser-pro{
+        margin-bottom: 70px;
+    }
+    .ser-icon-main {
+    left: 41%;
+    }
+    
+/*services part responsive code end*/
+    .big-img{
+        margin-bottom: 15px;
+       
+    }
+    .small-img{
+        margin-bottom: 15px; 
+    }
+    /*services part responsive code start*/
+    .testi-con{
+        margin-bottom: 15px;
+    }
+    
+    
+    
+/*services part responsive code end*/
+   /*footer part responsive code start*/
+    
+    
+    .f-comm h3{
+    text-align:center;
+    }
+    .f-icon{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .f-number{
+        text-align: center;
+    }
+    .f-menu ul li a{
+   margin-left: 30px;
+        
+    }
+/*footer part responsive code end*/ 
+    
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    .about-con{
+        margin: 0;
+        padding: 0;
+    }
+    .about-con p{
+        padding: 0;
+        margin: 0;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+/*// X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px) and (max-width: 1399px) { ... }
+
+/*// XX-Large devices (larger desktops)*/
+@media (min-width: 1400px)  { ... }
+/*// No media query since the xxl breakpoint has no upper bound on its width*/

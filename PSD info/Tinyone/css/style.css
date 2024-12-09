@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(198, 198, 198, 0.74);
+     font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+/*nav part css code start*/
+.navbar{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+   
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    display: block;
+    padding: 20px 30px;
+    
+    
+}
+.navbar-nav{
+    padding: 0;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: green;
+}
+.container{
+padding: 40px 60px;
+}
+
+/*nav part css code end*/
+/*banner part css code start*/
+#carouselExampleIndicators{
+    background-color: #fcdb00;
+    padding: 120px 0;
+    position: relative;
+}
+element {
+}
+.carousel-indicators [data-bs-target] {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target].active{
+    background-color: green;
+}
+.ban-con h4{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px; 
+    margin-bottom: 20px;
+}
+.ban-con h6{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px; 
+    margin-bottom: 20px;
+}
+
+.ban-con p{
+    font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.ban-icon{
+    padding-top: 50px;
+}
+.ban-icon ul li{
+    float: left;
+}
+.ban-icon ul li a{
+    padding: 7px 25px;
+
+    color: black;
+    font-size: 50px;
+    transition: all linear .3s;
+   
+}
+.ban-icon ul li a:hover{
+    color: green;
+    transition: all linear .3s;
+}
+.ipad img{
+    float: right;
+    height: 70%;
+    width: 70%;
+    border-radius: 10px;
+}
+.ipad{
+    position: relative;
+}
+.logo-img{
+position: absolute;
+top: 185px;
+left: 143px;
+    z-index: 1;
+}
+.logo-img img{
+    background-color: aliceblue;
+    padding: 10px;
+}
+/*banner part css code end*/
+/*features part css code start*/
+.feat-head{
+    text-align: center;
+}
+.feat-head h4{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px; 
+    margin-bottom: 20px;
+}
+.feat-head p{
+    font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.feat-icon{
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+.feat-icon a{
+    
+    color: black;
+}
+.feat-con h4{
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 5px; 
+    
+}
+.feat-con p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+    
+}
+.feat{
+    margin-top: 40px;
+}
+/*features part css code end*/
+/*footer part css code start*/
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-head{
+    text-align: center;
+    
+}
+.footer-head h4{
+     font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 5px; 
+    color: #fcdb00;
+}
+.footer-head p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.form{
+    text-align: right;
+     
+}
+.form input{
+    border-radius: 5px;
+    padding: 6px 100px;
+    margin-top: 7px;
+   
+}
+.form input placeholder{
+    color: green;
+    background-color: transparent;
+    
+}
+.btn{
+    text-align: ;
+}
+.btn button{
+    padding: 5px 12px ;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    background-color: #fcdb00;
+    border-radius: 5px;
+    
+}
+.f-icon{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+
+.f-i ul{
+    padding: 0;
+    text-align: center;
+     padding-left: 480px; 
+    
+
+}
+.f-i ul li{
+    display: block;
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+    
+    
+}
+.f-i ul li a{
+    background-color:#fcdb00;
+    padding: 5px 5px;
+    border-radius: 6px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    text-align: center;
+   padding-top: 0px;
+   
+}
+/*footer part css code end*/
+
+
+

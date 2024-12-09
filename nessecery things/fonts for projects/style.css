@@ -1,0 +1,28 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&family=Concert+One&family=Cookie&family=Courgette&family=Francois+One&family=Fugaz+One&family=Great+Vibes&family=Josefin+Sans:wght@400;500;600;700&family=Kurale&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Oleo+Script&family=Open+Sans&family=Pacifico&family=Passion+One:wght@400;700&family=Pirata+One&family=Playball&family=Poiret+One&family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Satisfy&family=Stint+Ultra+Condensed&display=swap');
+</style>
+
+
+body {
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kurale', serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Pirata One', cursive;
+    font-family: 'Playball', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,51 @@
+.content{
+    text-align: justify;
+}
+
+.gly_img{
+    margin: 0 15px;
+}
+
+.slick-dots li{
+/*
+    height: 4px;
+    width: 30px;
+    background-color: green;
+*/
+/*    border-radius: 50%;*/
+}
+.slick-dots li.slick-active{
+/*    background-color: red;*/
+}
+.icon_left{
+    position: absolute;
+    top: 40%;
+    left: -57px;
+    height: 40px;
+    width: 40px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.icon_right{
+    position: absolute;
+    top: 40%;
+    right: -57px;
+    height: 40px;
+    width: 40px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}

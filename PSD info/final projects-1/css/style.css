@@ -1,0 +1,684 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kurale', serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Pirata One', cursive;
+    font-family: 'Playball', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header part css code start*/
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.carousel {
+    position: relative;
+}
+
+.menu {
+    padding-top: 30px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: whitesmoke;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #147e90;
+
+
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+    color: #147e90;
+}
+
+.search-box {
+    padding: 6px;
+    height: 52px;
+    background-color: #147e90;
+    border-radius: 52px;
+    margin-right: 20px;
+}
+
+.search-box:hover .search-text {
+    width: 200px;
+    color: aliceblue;
+}
+
+.search-text {
+
+    margin: 0;
+    border: none;
+    outline: 0;
+    padding: 5;
+    line-height: 40px;
+    font-size: 16px;
+    background: none;
+    color: rgb(255, 255, 255);
+    float: left;
+    width: 0px;
+    transition: all linear 0.5s;
+}
+
+.search-btn {
+    height: 40px;
+    width: 40px;
+    color: rgb(0, 255, 213);
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    float: right;
+    text-decoration: none;
+}
+
+.search-text::placeholder {
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+
+/*banner part css code start*/
+.nav-banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-overlay {
+    background-color: rgba(0, 0, 0, 0.83);
+    padding-top: 200px;
+    padding-bottom: 150px
+}
+
+.ban-con {
+    color: aliceblue;
+    text-align: center;
+}
+
+.ban-con h4 {
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+
+.ban-con p {
+    font-size: 16px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 400;
+    justify-content: center;
+
+}
+
+.ban-bottom ul {
+    padding: 0;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.ban-bottom ul li {
+    display: inline-flex;
+    padding-left: 10px;
+
+}
+
+.ban-bottom ul li a {
+    color: #ffffff;
+    padding: 8px 30px;
+    border: 1px solid #147e90;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 30px;
+    transition: all linear .3s;
+
+}
+
+.ban-bottom ul li a:hover {
+    background-color: #147e90;
+    border: 1px solid #147e90;
+    transition: all linear .3s;
+}
+
+/*banner part css code start*/
+/*header part css code end*/
+
+
+/*about part css code start*/
+#about {
+    background-color: #147e90;
+    padding-bottom: 50px;
+}
+
+.about-con-main {
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.about-video video {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
+
+
+.about-con h4 {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.about-con p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+
+    line-height: 25px;
+    text-align: justify;
+}
+
+.about-con ul {
+    padding: 0;
+    margin-top: 30px;
+
+}
+
+.about-con ul li {
+    display: inline-flex;
+    padding-left: 10px;
+
+}
+
+.about-con ul li a {
+    color: aliceblue;
+    padding: 8px 30px;
+    border: 1px solid #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all linear .3s;
+}
+
+.about-con ul li a:hover {
+    color: #147e90;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: all linear .3s;
+}
+
+/*about part css code end*/
+/*services part css code start*/
+.services {
+    padding-bottom: 50px;
+}
+
+.service-head h2 {
+    color: #147e90;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.service-head h2::after {
+    position: absolute;
+    content: "";
+    top: 69%;
+    left: 45%;
+    width: 20px;
+    height: 2px;
+    background-color: #444444;
+}
+
+.service-head h2::before {
+    position: absolute;
+    content: "";
+    top: 69%;
+    left: 48%;
+    width: 44px;
+    height: 2px;
+    background-color: #0872b9;
+}
+
+.service-head h2 > span::after {
+    position: absolute;
+    content: "";
+    top: 69%;
+    left: 53%;
+    width: 20px;
+    height: 2px;
+    background-color: #444444;
+}
+
+.ser-bg {
+    background: url(../images/ser-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.ser-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    padding: 38px 20px;
+    margin-bottom: 40px;
+
+}
+
+.ser-overlay h4 {
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.ser-overlay p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+.ser-overlay ul {
+    padding: 0;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.ser-overlay ul li {
+    display: inline-flex;
+    padding-left: 10px;
+
+}
+
+.ser-overlay ul li a {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700px;
+    border: 1px solid #0872b9;
+    padding: 5px 15px;
+    margin-right: 20px;
+    transition: all linear .3s;
+    border-radius: 5px;
+}
+
+.ser-overlay ul li a:hover {
+    color: aliceblue;
+    background-color: #0872b9;
+    transition: all linear .3s;
+
+}
+
+/*services part css code end*/
+
+/*good will part css code start*/
+.good-bg {
+    background: url(../images/goodwill-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.good-overlay {
+    background-color: rgba(0, 0, 0, 0.59);
+    padding: 20px;
+}
+
+.good-con {
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.good-con h2 {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.good-con p {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+/*good will part css code end*/
+/*portfolio part css code start*/
+.portfolio {
+    background-color: #147e90;
+}
+
+.port-head h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.port-head h2::after {
+    position: absolute;
+    content: "";
+    top: 69%;
+    left: 45%;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.port-head h2::before {
+    position: absolute;
+    content: "";
+    top: 69%;
+    left: 48%;
+    width: 44px;
+    height: 2px;
+    background-color: #acb6bc;
+}
+
+.port-head h2 > span::after {
+    position: absolute;
+    content: "";
+    top: 69%;
+    left: 53%;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.port-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.port-overlay {
+    position: absolute;
+    top: 23px;
+    left: 14px;
+    height: 95%;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleY(0);
+    transition: all linear .3s;
+}
+
+.port-img:hover .port-overlay {
+    transform: scaleY(1);
+    transition: all linear .3s;
+}
+
+.port-overlay p {
+    color: aliceblue;
+    transition: all linear .3s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+}
+
+.port-overlay p:hover {
+    color: #147e90;
+    transition: all linear .3s;
+}
+
+.port-overlay ul {
+    padding: 0;
+}
+
+.port-overlay ul li a {
+    text-align: center;
+    padding: 25px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: aliceblue;
+    color: #147e90;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: all linear .3s;
+}
+
+.port-overlay ul li a:hover {
+    background-color: #147e90;
+    color: aliceblue;
+    transition: all linear .3s;
+}
+
+.browse ul {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.browse ul li a {
+    color: #147e90;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700px;
+    background-color: aliceblue;
+    padding: 7px 15px;
+    margin-right: 20px;
+    transition: all linear .3s;
+    border-radius: 2px;
+}
+
+/*portfolio part css code end*/
+/*team part css code start*/
+.team-img {
+    position: relative;
+
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+    transform: scaleX(0);
+    transition: all linear .3s;
+}
+
+.team-img:hover .team-overlay {
+    transform: scaleX(1);
+    transition: all linear .3s;
+}
+
+.team-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.team-icon ul {
+    padding: 0;
+    padding-top: 20px;
+}
+
+.team-icon ul li {
+    padding-top: 25px;
+    padding-right: 40px;
+}
+
+.team-icon ul li a {
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+
+.team-overlay ul li a:hover {
+    background-color: #d33472;
+    border: 1px solid #d33472;
+    transition: all linear .3s;
+}
+
+.team-con {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.team-con h4 {
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: all linear .3s;
+}
+
+.team-con h4:hover {
+    color: #d33472;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.team-con p {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.team-membar ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team-membar ul li a {
+    background-color: #147e90;
+    color: aliceblue;
+
+}
+
+/*team part css code end*/
+
+/*FAQ part css code start*/
+.FAQ {
+    background-color: #147e90;
+}
+
+.FAQ-con h5 {
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.con-1 {
+    padding: 10px 20px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.con-1 p {
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.pad h5 {
+    margin-bottom: 40px;
+}
+
+/*FAQ part css code end*/

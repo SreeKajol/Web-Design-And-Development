@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin:0;
+    outline: 0;
+    
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+text-decoration: none;
+}
+/*nav part css start*/
+
+body{
+    background-color: rgba(190, 172, 193, 0.92); 
+    font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Mate', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+    
+}
+nav{
+    background-color: rgba(82, 198, 198, 0.87);
+   
+}
+
+
+.kajol{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+   
+}
+.menu ul {
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 15px 20px;
+    
+}
+.menu ul li a {
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 50px;
+}
+.jk{
+    float: right;
+    display: block;
+    display: inline-flex;
+    background-color: rgba(194, 242, 242, 0.77);
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+.jk h5{
+    padding-left: 5px;
+}
+.search{
+    float: left;
+
+}
+.search input{
+    font-size: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    padding-right: 70px;
+    float:left;
+    border: none;
+    margin-right: 5px;
+    
+    
+}
+.search ul{
+    float: left;
+}
+/*nav part css end*/
+
+/*banner part css start*/
+.banner{
+background: url(../images/burj.jpg);
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner-overlay{
+    padding: 165px 20px;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+.banner-con{
+    color: #fff;
+}
+.banner-con h1{
+        font-size: 40px;
+    font-family:monospace;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.banner-con h4{
+        font-size: 20px;
+    font-family:monospace;
+    text-transform: uppercase;
+    color: yellowgreen;
+    margin-bottom: 40px;
+}
+.banner-con a{
+        font-size: 25px;
+    font-family:monospace;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+/*banner part css end*/
+
+/*about part css code start*/
+.about-head h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: rgba(193, 114, 9, 0.85);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.logo a img{
+    height: 100px;
+    margin-top: 5px;
+    background-color: rgba(191, 220, 245, 0.85);
+    padding: 5px 10px ;
+}
+.about-img{
+width: 48%;
+    float:left;
+}
+.about-img img {
+    width: 100%;
+   
+}
+.about-content{
+    width: 50%;
+    float:left;
+    margin-left: 15px;
+}
+.about-content p{
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+
+/*about part css code end*/
+
+/*    gallary part css code start */
+.gly-img{
+    width: 32%;
+    float: left;
+    position: relative;
+}
+.gly-img img{
+    width: 100%;
+        
+}
+
+.gly-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:scale(0);
+}
+.gly-overlay ul li a{
+    background-color: white;
+    padding: 10px 10px;
+    color: rgba(155, 12, 244, 0.96);
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    line-height: 10px;
+    
+}
+.gly-img:hover .gly-overlay{
+    transform:scale(1);
+    transition: all linear .3s;
+}
+.middle-img{
+    margin-right: 19px;
+    margin-left: 19px;
+}
+/*    gallary part css code end*/
+/*footer part css code start */
+footer{
+    color: aliceblue;
+    background-color: #333;
+    font-size: 80%;
+      text-align: center;
+    margin-top: 30px;
+    
+}
+.footer_body{
+    margin-bottom: 30px;
+    padding: 30px;
+  
+}
+.footer_body h5{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.footer_body ul{
+    margin-top: 20px;
+    margin-bottom: -60px;
+}
+.footer_body ul li{
+    padding: 10px 10px;
+
+}
+.footer_body ul li a{
+    color: aliceblue;
+    margin-bottom: 10px;
+    
+}
+.f_con{
+    
+    background-color: gray;
+    font-size: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+/*footer part css code end*/
+
+
+/*portfolio part css start*/
+.ban{
+background: url(../images/side.jpg);
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.ban_overlay{
+    padding: 165px 20px;
+    background-color: rgba(0, 0, 0, 0.52);
+}
+.ban_con{
+      color: #fff;
+    position: relative;
+}
+.ban_con h1{
+     font-size: 40px;
+    font-family:monospace;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.ban_con h4{
+     font-size: 20px;
+    font-family:monospace;
+    text-transform: uppercase;
+    color: yellowgreen;
+    margin-bottom: 40px;
+    margin-left: 40px;+
+}
+.ban_con ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 80px;
+}
+.ban_con ul li a{
+   margin-left: 20px;
+    font-family:monospace;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    color:rgba(51, 177, 235, 0.849);
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    text-align: center;
+}
+.png{ 
+
+}
+.png img{
+    height: 300px;
+    width: 300px;
+    margin-left:80%;
+    margin-top: 10%;
+    margin-bottom: 70%;
+    position: absolute;
+}
+/*profile part css start*/
+.pro{
+   
+}
+.pro img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  margin-left: 400px;
+    margin-top: -15%;
+    border: 3px solid white;
+}
+.pro h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 90px;
+}
+.container h2{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.con h3{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+    color: rgba(85, 47, 61, 0.849);
+    margin-left: 30px;
+}
+.con p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: fantasy;
+    font-size: 14px;
+}
+.icon{
+    width: 32%;
+float: left;
+    margin-top: 30px;
+}
+.icon ul {
+    text-align: center;
+    margin-left: 150px;
+    font-size: 20px;
+    float: left;
+}
+.icon p{
+    text-align: center;
+    font-size: 12px;
+    font-family: cursive;
+    line-height: 20px;
+    font-weight: bold;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.icon h4{
+    text-align: center;
+    font-size: 19px;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.icon ul li a{
+    color: white;
+}
+
+/*profile part css end*/
+/*act part css start*/
+.act_head h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.p p{
+    text-align: center;
+    font-size: 15px;
+    font-family:monospace;
+    font-weight: bolder;
+}
+/*act part css end*/
+/*deta part css start*/
+.deta_head h2{
+  margin-bottom: 70px;
+    font-size: 30px;
+     text-align: center;
+    padding: 10px 0px;
+    margin-right: 60px;
+    border-bottom: 1px solid black;
+    
+}
+.im img{ 
+height: 300px;
+    width: 300px;
+}
+/*deta part css end*/
+/*portfolio part css end*/

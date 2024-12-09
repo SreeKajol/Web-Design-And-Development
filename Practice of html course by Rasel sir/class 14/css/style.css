@@ -1,0 +1,574 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: gainsboro;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header part css start*/
+
+header {
+    background-color: #0872b9;
+}
+
+.welcome p {
+    color: white;
+    padding-top: 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon ul {
+    float: right;
+}
+
+.icon ul li {
+    float: left;
+    padding: 0px 15px;
+}
+
+.icon ul li a {
+    color: #fff;
+    padding-top: 15px;
+    display: block;
+    font-size: 14px;
+    transition: all linear .3s;
+}
+
+.icon ul li a:hover {
+    color: black;
+    transition: all linear .3s;
+}
+
+
+/*header part css end*/
+
+
+/*nav part css start*/
+
+.navbar-nav .nav-item .nav-link {
+    color: rgba(0, 0, 0, 0.77);
+    transition: all linear .3s;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #4695cb;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #4695cb;
+    transition: all linear .3s;
+}
+
+
+/*nav part css end*/
+
+
+/*banner part css start*/
+
+.banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-overlay {
+    padding: 87px 0px;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.banner-con {
+    text-align: right;
+    color: white;
+}
+
+.banner-con h4 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.banner-con h1 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.banner-con p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.banner-con a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 8px 20px;
+    border: 2px solid white;
+    margin-left: 15px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.banner-con a:hover {
+    background-color: #0872b9;
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+}
+
+
+/*banner part css end*/
+
+
+/*about part css start*/
+
+.about-com h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.about-com h3::after {
+    position: absolute;
+    content: "";
+    top: 29px;
+    bottom: 0px;
+    left: 45.1%;
+    height: 2px;
+    width: 47px;
+    background-color: #0872b9;
+}
+
+.about-com h3::before {
+    position: absolute;
+    content: "";
+    top: 29px;
+    bottom: 0px;
+    width: 7px;
+    left: 50.5%;
+    height: 2px;
+    background-color: #0872b9;
+}
+
+.about-com h3 span::after {
+    position: absolute;
+    content: "";
+    top: 29px;
+    bottom: 0px;
+    left: 51.8%;
+    height: 2px;
+    width: 5px;
+    background-color: #0872b9;
+}
+
+.about-com h3 span::before {
+    position: absolute;
+    content: "";
+    top: 29px;
+    bottom: 0px;
+    left: 52.9%;
+    height: 1px;
+    width: 3px;
+    background-color: #0872b9;
+}
+
+.about-con {
+    padding-top: 30px;
+}
+
+.about-con p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+/*about part css end*/
+
+
+/*services part css start*/
+
+.ser-main {
+    position: relative;
+    margin-top: 35px;
+}
+
+.ser-icon-main {
+    height: 80px;
+    width: 80px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -23%;
+    left: 40%;
+    z-index: 1;
+    border: 3px solid white;
+    transition: all linear .3s;
+}
+
+.ser-icon {
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.ser-con {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 52px 22px 5px;
+}
+
+.ser-con h4 {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+}
+
+.ser-con p {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ser-con {
+    transition: all linear .3s;
+}
+
+.ser-con:hover {
+    box-shadow: 10px 10px 8px rgb(54, 188, 239);
+    transition: all linear .3s;
+}
+
+.ser-main:hover .ser-icon-main {
+    background-color: #5bc5f4;
+    transition: all linear .3s;
+}
+
+.ser-main:hover .ser-icon {
+    background-color: #5bc5f4;
+    transition: all linear .3s;
+}
+
+.border-left {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+/*services part css end*/
+
+
+/*portfolio part css start*/
+
+.small-img {
+    margin-bottom: 10px;
+    position: relative;
+    transition: all linear .3s;
+}
+
+.port-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleY(0);
+    /*    opacity: 0;*/
+}
+
+.port-overlay a {
+    display: block;
+    background-color: #5bc5f4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-img:hover .port-overlay {
+    /*    opacity:1;*/
+    transform: scaleY(1);
+    transition: all linear .5s;
+}
+
+.big-img {
+    margin-bottom: 10px;
+    position: relative;
+    transition: all linear .5s;
+}
+
+.big-img:hover .port-overlay {
+    /*    opacity:1;*/
+    transform: scaleY(1);
+    transition: all linear .3s;
+}
+
+
+/*portfolio part css end*/
+
+
+/*team part html start*/
+
+.team-img {
+    position: relative;
+}
+
+.team-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.team-overlay ul {
+    padding: 0;
+}
+
+.team-overlay ul li {
+    padding: 10px;
+}
+
+.team-overlay ul li a {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+
+.team-overlay ul li a:hover {
+    background-color: #5bc5f4;
+    border: 2px solid #5bc5f4;
+    transition: all linear .3s;
+}
+
+.team-img:hover .team-overlay {
+    transform: scale(1);
+    transition: all linear .3s;
+}
+
+.team-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.team-title h3 {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+
+/*team part html end*/
+
+
+/*testinonial part css start*/
+
+.testi-img {
+    text-align: center;
+}
+
+.testi-con {
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    padding: 22px;
+    position: relative;
+}
+
+.piramid {
+    position: absolute;
+    top: -15px;
+    left: 249px;
+    height: 50px;
+    width: 50px;
+    background-color: #f1f1f1;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.testi-con h3 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.testi-con h5 {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.testi-con p {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.testi-con ul {
+    display: inline-flex;
+    padding: 0;
+}
+
+.testi-con ul li a {
+    color: #5bc5f4;
+}
+
+.border-line {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+/*testinonial part css end*/
+
+
+/*footer part css start*/
+
+footer {
+    background-color: #353535;
+    margin-top: 60px;
+    color: white;
+    padding: 34px 0px 20px;
+}
+
+.f-con {
+    padding-top: 34px;
+}
+
+.f-con p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.f-comm h3 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.f-icon ul li a {
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.f-icon ul {
+    padding: 0;
+}
+
+.f-number {
+    font-size: 13px;
+}
+
+.f-menu ul {
+    padding: 0;
+}
+
+.f-menu ul li a {
+    color: white;
+    padding: 8px 0px;
+    display: block;
+    transition: all linear .3s;
+}
+
+.f-menu ul li a:hover {
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
+
+.f-gellary {
+    margin-top: 10px;
+}
+
+.com-f {
+    text-align: center;
+    background-color: #555555;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    padding-top: 19px;
+}
+
+
+/*footer part css end*/

@@ -1,0 +1,73 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+.carousel-item > img {
+	position: relative;
+}
+
+.ban-main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+	color: black;
+}
+
+.gellary-img {
+	margin: 0px 10px;
+}
+
+.slick-dots li {
+	height: 5px;
+	width: 30px;
+	background-color: aqua;
+	border-radius: 20%;
+}
+
+.slick-dots li.slick-active {
+	background-color: indigo;
+}
+
+.icon-left {
+	position: absolute;
+	top: 42%;
+	left: -4%;
+	height: 40px;
+	width: 40px;
+	background-color: saddlebrown;
+	border-radius: 50%;
+	color: aliceblue;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+}
+
+.icon-right {
+	position: absolute;
+	top: 42%;
+	right: -4%;
+	height: 40px;
+	width: 40px;
+	background-color: saddlebrown;
+	border-radius: 50%;
+	color: aliceblue;
+	text-align: center;
+	line-height: 40px;
+	display: block;
+}

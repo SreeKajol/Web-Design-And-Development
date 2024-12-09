@@ -1,0 +1,127 @@
+body{
+    background-color: rgba(147, 136, 150, 0.79);
+}
+/*nav part css start*/
+.menu{
+    background-color: teal;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #f0f4f7;
+    font-size: 18px;
+    padding:22px 15px;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: indigo;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: indigo;
+    background-color: antiquewhite;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-brand img{
+    height: 60px;
+}
+
+/*nav part css end*/
+
+/*banner part css start*/
+.carousel-item img{
+    height: 550px;
+}
+.carousel-inner{
+    position: relative;
+}
+.banner-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.72);
+    
+}
+.carousel-caption h5{
+    font-size:     50px;
+    text-align: left;
+}
+.carousel-caption p{
+    font-size:     20px;
+    text-align: left;
+    margin-bottom:200px;
+    color: yellowgreen;
+}
+.ban a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 500px;
+    margin-bottom: 500px;
+    padding: 10px 15px;
+    background-color:rgba(4, 97, 109, 0.78);
+    
+}
+.carousel-indicators [data-bs-target]{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(27, 95, 204, 0.95);
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target].active{
+   background-color: bisque;
+}
+/*banner part css end*/
+/*gellary part css start*/
+.gellary img{
+    height: 200px;
+}
+/*gellary part css end*/
+/*footer part css start*/
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+/*footer part css end*/
+
+
+/* ========== portfolio  part css start========*/
+.cover-pic{
+    background:url(../images/chess.jpg);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        
+}
+.cover-overlay{
+    padding: 200px 100px;
+    background-color: rgba(0, 0, 0, 0.72);
+    
+}
+.cover-con h1{
+    color: rgb(160, 139, 177);
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+.cover-con p{
+    color: yellowgreen;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-left: 90px;
+  
+}
+.cover-con ul li{
+    display: inline-flex;
+    padding:0 20px;
+}
+
+/* ========== portfolio  part css end========*/

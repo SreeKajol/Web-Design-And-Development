@@ -1,0 +1,17 @@
+.main-box{
+display:flex;
+	height:100%;
+	width:100%;
+background-color:black;
+	
+	
+}
+
+
+.box{
+	height:100px;
+	width:100px;
+	background-color:blue;
+margin-right:10px;
+	
+}

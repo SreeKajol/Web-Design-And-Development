@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'BenchNine', sans-serif;
+    font-family: 'Concert One', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kurale', serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Passion One', cursive;
+    font-family: 'Pirata One', cursive;
+    font-family: 'Playball', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header part css code start*/
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: 'Fugaz One', cursive;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #cc9900;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #cc9900;
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+    color: #cc9900;
+}
+
+.menu-icon ul li {
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.menu-icon ul li a {
+    font-size: 20px;
+    color: #dab33e;
+    transition: all linear .3s;
+}
+
+.menu-icon ul li a:hover {
+    color: chartreuse;
+    transition: all linear .3s;
+}
+
+
+/*header part css code end*/
+
+
+/*banner part css code start*/
+
+.banner-img {
+    background: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-overlay {
+    padding: 200px 0px 0px 70px;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+
+.ban-con {
+    text-align: center;
+    color: white;
+}
+
+.ban-con h4 {
+    font-size: 80px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+ul.book-table li {
+    display: inline-flex;
+    padding: 20px 20px;
+}
+
+ul.book-table li a {
+    padding: 8px 40px;
+    background-color: rgba(250, 235, 215, 0.3);
+    color: white;
+    margin-top: 30px;
+    transition: all linear .3s;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+
+ul.book-table li a:hover {
+    color: #cc9900;
+    background-color: rgba(0, 0, 0, 0.54);
+    transition: all linear .3s;
+    border-radius: 3px;
+}
+
+
+/*banner part css code end*/
+
+
+/*about part css code start*/
+
+.about-banner {
+    background: url(../images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about-overlay {
+    padding: 80px 0px;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.cook {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.cook h4 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #dab33e;
+}
+
+.cook p {
+    font-size: 18px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plate-img {
+    text-align: center;
+}
+
+
+/*about part css code end*/
+
+
+/*ingredients part css start*/
+
+.ingredient-banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.in-main {
+    text-align: center;
+    padding: 40px 10px;
+    color: white;
+    transition: all linear .3s;
+}
+
+.in-main:hover {
+    background-color: rgba(0, 0, 0, 0.59);
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+
+.in-con h4 {
+    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.in-con p {
+    font-size: 20px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.in-img {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+/*ingredients part css end*/
+
+
+/*mid menu part css code start*/
+
+.mid-menu-con {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.mid-menu-con h4 {
+    font-size: 40px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #cc9900;
+}
+
+.m-con {
+    border-bottom: 1px solid rgba(204, 153, 0, 0.54);
+    width: 100%;
+}
+
+.m-con {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Cookie', cursive;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    color: #cc9900;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.m-con-1 p {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.m-border {
+    border: 1px solid rgba(204, 153, 0, 0.48);
+    padding: 0px 10px;
+
+    margin: -10px;
+
+}
+
+.m-main {
+    position: relative;
+    margin-top: 30px;
+}
+
+.special {
+    position: absolute;
+    top: -10%;
+    left: 86.2%;
+    z-index: 1;
+    font-size: 14px;
+    padding: 2px 8px;
+    background-color: rgba(204, 153, 0, 0.76);
+
+    color: aliceblue;
+}
+
+/*mid menu part css code end*/
+/*review part css code start*/
+.r-img {
+    background: url(../images/review.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.r-overlay {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.rev-last {
+    padding-top: 50px;
+}
+
+/*review part css code end*/
+/*reservation part css code start*/
+.reserv-con {
+    text-align: center;
+}
+
+.reserv-img {
+    margin-top: 35px;
+}
+
+.reserv-con h4 {
+    font-size: 40px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #cc9900;
+}
+
+.reserv-con p {
+    font-size: 18px;
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form label {
+    margin-top: 10px;
+    color: #cc9900;
+    font-size: 17px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 600;
+}
+
+.form input {
+    width: 100%;
+    outline: 0;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgba(204, 153, 0, 0.62);
+    padding: 5px 10px;
+    margin-top: 7px;
+}
+
+.form input::placeholder {
+    color: rgba(0, 0, 0, 0.56);
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.book {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.book a {
+    padding: 10px 50px;
+    color: white;
+    background-color: rgba(204, 153, 0, 0.62);
+    margin-top: 30px;
+    transition: all linear .3s;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+
+
+}
+
+/*reservation part css code end*/
+/*footer part css code start*/
+footer {
+    background-color: #191919;
+    color: aliceblue;
+    text-align: center;
+}
+
+.f-con {
+    margin-top: 40px;
+}
+
+.f-con h4 {
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #cc9900;
+}
+
+.f-con p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.f-con ul {
+    padding: 0px;
+
+}
+
+.f-con ul li {
+    display: inline-flex;
+}
+
+.f-con ul li a {
+    padding-left: 10px;
+    color: aliceblue;
+    transition: all linear .3s;
+    margin-top: 10px;
+}
+
+.f-con ul li a:hover {
+    color: #cc9900;
+    transition: all linear .3s;
+}
+
+/*footer part css code end*/

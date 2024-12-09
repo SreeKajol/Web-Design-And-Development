@@ -1,0 +1,293 @@
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Open+Sans&family=Oswald:wght@400;700&family=Tenali+Ramakrishna&display=swap');
+                * {
+                    padding: 0;
+                    margin: 0;
+                    outline: 0;
+                    box-sizing: border-box;
+                }
+                
+                a,
+                a:hover {
+                    text-decoration: none;
+                }
+                
+                ul,
+                ol {
+                    list-style: none;
+                }
+                
+                body {
+                    font-family: 'Dancing Script', cursive;
+                    font-family: 'Lobster', cursive;
+                    font-family: 'Oswald', sans-serif;
+                    font-family: 'Tenali Ramakrishna', sans-serif;
+                    font-family: 'Open Sans', sans-serif;
+                }
+                /*header part css code start*/
+                
+                header {
+                    background-color: rgba(18, 137, 167, 0.73);
+                }
+                
+                .logo img {
+                    width: 100px;
+                    padding-top: 5px;
+                }
+                
+                .head-icon ul {
+                    padding: 0;
+                    text-align: right;
+                    float: right;
+                }
+                
+                .head-icon ul li {
+                    float: left;
+                    padding: 0px 15px;
+                }
+                
+                .head-icon ul li a {
+                    color: #fff;
+                    padding-top: 20px;
+                    display: block;
+                    font-size: 15px;
+                    transition: all linear .3s;
+                }
+                
+                .head-icon ul li a:hover {
+                    color: black;
+                    transition: all linear .3s;
+                }
+                /*header part css code end*/
+                /*banner part css code start*/
+                
+                .banner {
+                    background: url(../images/banner.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    background-attachment: fixed;
+                    position: relative;
+                }
+                
+                .banner-overlay {
+                    padding: 250px 0px;
+                    padding-top: 100px;
+                    background-color: rgba(0, 0, 0, 0);
+                }
+                
+                .banner-con h4 {
+                    color: #12CBC4;
+                    text-align: center;
+                    font-size: 60px;
+                    font-family: 'Lobster', cursive;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                
+                .profile-pic {
+                    width: 50%;
+                }
+                
+                .profile-pic img {
+                    position: absolute;
+                    top: 50%;
+                    left: 34.3%;
+                    border-radius: 50%;
+                    height: 400px;
+                    width: 380px;
+                    border: 5px solid #1289A7;
+                }
+                /*banner part css code end*/
+                /*about part css code start*/
+                
+                .about {
+                    background: url(../images/about-bg.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    padding: 200px 0px 20px;
+                }
+                
+                .about-con h5 {
+                    text-align: center;
+                    font-size: 40px;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 600;
+                    padding-top: 10px;
+                    margin-top: 10px;
+                    transition: all linear .3s;
+                }
+                
+                .about-con h5:hover {
+                    color: #12CBC4;
+                    transition: all linear .3s;
+                }
+                
+                .about-con h6 {
+                    text-align: center;
+                    font-size: 30px;
+                    font-family: 'Tenali Ramakrishna', sans-serif;
+                    font-weight: 500;
+                }
+                
+                .about-con p {
+                    text-align: center;
+                    font-size: 20px;
+                    font-family: cursive;
+                    font-weight: 600px;
+                }
+                /*about part css code end*/
+                /*personal-info part css code start*/
+                
+                .personal-head h4 {
+                    text-align: center;
+                    margin: 50px 0px 40px;
+                    font-size: 30px;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    transition: all linear .3s;
+                }
+                
+                .personal-head h4:hover {
+                    color: #12CBC4;
+                    transition: all linear .3s;
+                }
+                
+                .personal-info {
+                    background: url(../images/biography-bg.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    padding-bottom: 40px;
+                }
+                
+                .personal-con p {
+                    color: rgba(0, 0, 0, 0.79);
+                    text-align: justify;
+                    line-height: 30px;
+                    font-size: 16px;
+                    font-family: sans-serif;
+                    font-weight: 500;
+                }
+                /*personal-info part css code end*/
+                /*services part css code start*/
+                
+                .services {
+                    background: url(../images/latest-work-bg.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .ser-main {
+                    position: relative;
+                    margin-top: 60px;
+                }
+                
+                .ser-icon-main {
+                    height: 100px;
+                    width: 100px;
+                    background-color: #f1f1f1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -56px;
+                    left: 36%;
+                    z-index: 1;
+                    border: 4px solid white;
+                }
+                
+                .ser-main:hover .ser-icon-main {
+                    background-color: #5bc5f4;
+                    transition: all linear .3s;
+                }
+                
+                .ser-main:hover .ser-icon {
+                    background-color: #5bc5f4;
+                    transition: all linear .3s;
+                }
+                
+                .ser-con:hover {
+                    box-shadow: 10px 10px 7px #5bc5f4;
+                    transition: all linear .3s;
+                }
+                
+                .ser-icon {
+                    height: 85px;
+                    width: 85px;
+                    border: 2px solid whitesmoke;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    border: 3px solid white;
+                    transition: all linear .3s;
+                }
+                
+                .ser-con {
+                    background-color: #f1f1f1;
+                    padding: 55px 5px 10px;
+                    text-align: center;
+                    margin-bottom: 50px;
+                    transition: all linear .3s;
+                    border-left: 7px solid;
+                    border-image: linear-gradient(rgba(0, 0, 255, 0.671), rgba(0, 255, 255, 0.616));
+                    border-image-slice: 1;
+                }
+                
+                .ser-con h4 {
+                    font-size: 22px;
+                    font-family: 'Oswald', sans-serif;
+                    font-weight: 600;
+                    padding-bottom: 10px;
+                    text-transform: uppercase;
+                }
+                
+                .ser-con p {
+                    font-size: 15px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 500;
+                    color: rgba(0, 0, 0, 0.774);
+                }
+                /* services part css code end*/
+                /* work part css code start */
+                
+                .work-img {
+                    margin-top: 20px;
+                    position: relative;
+                }
+                
+                .work-overlay {
+                    position: absolute;
+                    top: 24px;
+                    left: 14px;
+                    right: -5px;
+                    height: 94%;
+                    width: 96%;
+                    background-color: rgba(0, 0, 0, 0.692);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transform: scale(0);
+                    transition: all linear .3s;
+                }
+                
+                .work-overlay a {
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+                    background-color: cadetblue;
+                    color: white;
+                    text-align: center;
+                    display: block;
+                    border-radius: 50%;
+                }
+                
+                .work-img:hover .work-overlay {
+                    transform: scale(1);
+                    transition: all linear .3s;
+                }
+                /* work part css code end */

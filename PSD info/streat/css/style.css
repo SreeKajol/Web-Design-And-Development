@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(198, 198, 198, 0.74);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*nav part css code start*/
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    display: block;
+    padding: 20px 15px;
+    transition: all linear .3s;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #48baff;
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+    color: #48baff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #48baff;
+    transition: all linear .3s;
+}
+
+
+/*nav part css code end*/
+
+
+/*banner part css code start*/
+
+.banner-img {
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-overlay {
+    padding: 150px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.22);
+}
+
+.banner-con {
+    text-align: center;
+    color: white;
+}
+
+.banner-con h4 {
+    font-size: 120px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-con p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+    color: #92f2eb;
+    border-radius: 7px;
+}
+
+.banner-con ul li a {
+    padding: 7px 25px;
+    color: white;
+    display: inline-flex;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border: 2px solid white;
+    margin-left: 10px;
+    transition: all linear .3s;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+
+.banner-con ul li a:hover {
+    background-color: #0872b9;
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+    border-bottom: 2px solid #3297db;
+}
+
+
+/*banner part css code end*/
+
+
+/*pure part css code start*/
+
+.pure {
+    background-color: #f6f9f0;
+}
+
+.pure-head {
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 100px;
+}
+
+.pure-head h4 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.pure-head p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: #292424;
+}
+
+
+/*pure part css code end*/
+
+
+/*features part css code start*/
+
+.ser-con {
+    text-align: center;
+}
+
+.ser-con h4 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.ser {
+    padding-bottom: 30px;
+}
+
+.ser-con p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+    color: #292424;
+}
+
+.icon-main {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-main a {
+    background: linear-gradient(#48baff, #5fc3ff);
+    text-align: center;
+    border-radius: 7px;
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: block;
+    color: white;
+}
+
+
+/*features part css code end*/
+
+
+/*portfolio part css code start*/
+
+.portfolio {
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.port-head {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.port-head h4 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.port-head p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #292424;
+}
+
+.port-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.port-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(42, 169, 246, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(0);
+    transition: all linear .3s;
+}
+
+.port-img:hover .port-overlay {
+    transform: scaleX(1);
+    transition: all linear .3s;
+}
+
+.port-overlay ul {
+    padding: 0;
+}
+
+.port-overlay ul li {
+    padding: 0px 10px 0px;
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+.port-overlay ul li a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    display: block;
+    transition: all linear .3s;
+}
+
+.port-overlay ul li a:hover {
+    background-color: #c8843a;
+    border: 1px solid #c8843a;
+    transition: all linear .3s;
+}
+
+
+/*portfolio part css code end*/
+
+
+/*s-banner part css code srart*/
+
+.stay-banner {
+    background: url(../images/s-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.stay-overlay {
+    padding: 50px 0px;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.form {
+    text-align: center;
+    color: #f6f9f0;
+}
+
+.s-con {
+    color: white;
+}
+
+.s-con h4 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.s-con p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #f3fcf9;
+    text-align: center;
+}
+
+.form-group {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #f6f9f0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 40%;
+    padding: 7px;
+    outline: 0px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    margin-top: 10px;
+    color: gold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.send {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.checkbox {
+    margin-right: 175px;
+}
+
+.checkbox input {
+    text-align: left;
+    margin-right: 10px;
+}
+
+.but button {
+    padding: 7px 30px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.but button:hover {
+    background-color: cadetblue;
+    transition: all linear .3s;
+    border: 1px solid aqua;
+}
+
+
+/*s-banner part css code end*/
+
+
+/*footer part css code start*/
+
+footer {
+    background-color: #1e1e1e;
+    color: whitesmoke;
+}
+
+.foot-head h4 {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.foot-head p {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+.f-icon ul {
+    padding: 0;
+}
+
+.f-icon ul li a {
+    font-size: 14px;
+}
+
+.f-add p {
+    font-size: 13px;
+}
+
+.pop p {
+    padding-bottom: 7px;
+    margin: 0;
+}
+
+
+/*footer part css code end*/
+
+.last-footer {
+    background-color: white;
+    padding-top: 15px;
+}
+
+.welcome {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 8px;
+    color: aqua;
+}
+
+.icon ul {
+    float: right;
+}
+
+.icon ul li {
+    float: left;
+    padding: 0px 20px;
+}
+
+.icon ul li a {
+    height: 40px;
+    width: 40px;
+    display: block;
+    border-radius: 8px;
+    background-color: #15a4fa;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    display: block;
+    transition: all linear .3s;
+}
+
+.icon ul li a:hover {
+    color: black;
+    transition: all linear .3s;
+}

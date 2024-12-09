@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover,a:active{
+    text-decoration: none;
+    
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/*nav part css code start*/
+.navbar-brand img{
+    width: 150px;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: #f89107;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #f89107;
+}.navbar-nav .nav-item .nav-link:focus{
+    color: #f89107;
+}
+.sign-in ul{
+    padding: 0;
+}
+.sign-in ul li{
+    padding-top: 19px;
+    margin-left: 20px;
+}
+.sign-in ul li a{
+    color: #5584ff;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: 1px solid #5584ff;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.sign-in ul li a:hover{
+    background-color:#f89107; 
+    border: 1px solid #f89107;
+    color: #76ff00;
+    transition: all linear .3s;
+    
+}
+
+/*nav part css code end*/
+/*banner part css code start*/
+.banner-img{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner-overlay{
+    padding: 100px 0px;
+    padding-bottom: 400px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.ban-con{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.ban-con h4{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+.ban-con p{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding-bottom: 7px;
+}
+.ban-con a{
+    color: #5584ff;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: 1px solid #5584ff;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transition: all linear .3s;
+    
+}
+.ban-con a:hover{
+    background-color:#5584ff; 
+    color: white;
+    transition: all linear .3s;
+    
+}
+.b-img img {
+    position: absolute;
+    top: 43%;
+    left: 19%;
+    height: 80%;
+    width: 59%;
+}
+/*banner part css code end*/
+
+/*features part css code start*/
+.features{
+    margin-top: 200px;
+    text-align: center;
+}
+.feat-con{
+    padding: 10px 0px ;
+}
+.feat-con h4{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.feat-con p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+.feat-con .see-more{
+    color: #5584ff;
+    padding: 6px 40px;
+    border-radius: 15px;
+    border: 1px solid #5584ff;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.feat-con .see-more:hover{
+    background-color:#5584ff; 
+    color: white;
+    transition: all linear .3s;
+    
+}
+/*features part css code end*/
+
+
+
+
+
+
